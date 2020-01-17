@@ -1,0 +1,1 @@
+this is a blue sky media website but still it is un responsive
