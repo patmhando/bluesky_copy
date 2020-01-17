@@ -1,0 +1,23 @@
+:root{
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+   
+}
+body{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: "lucida sans", arial, sans-serif;
+    font-weight: lighter;
+}

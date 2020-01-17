@@ -1,0 +1,24 @@
+{
+  "name": "bluesky",
+  "version": "1.0.0",
+  "description": "land page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "patrick mhando",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node": "^13.5.0",
+    "node-sass": "^4.13.0",
+    "sass": "^1.24.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bluesky__clone__project"
+  },
+  "keywords": [
+    "bcp"
+  ]
+}

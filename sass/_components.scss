@@ -1,0 +1,96 @@
+/////HEADER
+.header{
+    &__nav{
+        background-color: rgba(0, 0, 0, 0.966); 
+        border-bottom: 1rem solid rgba(85, 82, 82, 0.76);
+        &::after{
+            content: " ";
+            display: block;
+            border-top: 1px solid #fff;
+        }
+    }
+    &__list{
+        display: flex; 
+        margin-left: 20rem;
+        margin-bottom: -2.4rem;
+        &--item{
+            list-style: none;
+            padding: 2rem;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+    }
+    &__head{
+        background-color: rgba(5, 74, 177, 0.527);
+        height: 16rem;
+        display: flex;
+        align-items: center;
+        &::before{
+            content: " ";
+            display: block;
+            border-top: 1px solid #fff;
+        }
+        
+    }
+    &__primary{
+        text-transform: uppercase;
+        letter-spacing: -2px;
+        color: #fff;
+        font-weight: bolder;
+        margin-left: 20rem;
+    }
+}
+
+/////CONTENT INNER
+.content__inner{
+    display: flex;
+    &--detail{
+
+    }
+    &--image{
+
+    }
+}
+////CONTENT OUTER
+.content__outer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+////PARAGRAPH
+.paragraph{
+    padding-bottom: 2.9rem;
+    letter-spacing: 1.3px;
+}
+
+
+////IMAGES
+.images{
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/////INDIVIDUAL ELEMENTS
+span{
+    font-weight: bold;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+////FOOTER
+.footer{
+    margin-left: 20rem;
+    padding: 2.5rem;
+    &::before{
+        content: " ";
+        display: block;
+        border-top: 1px solid black;
+        margin-right: 20rem;
+        padding: .8rem;
+    }
+}
