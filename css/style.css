@@ -20,10 +20,6 @@ body {
 .header__nav {
   background-color: rgba(0, 0, 0, 0.966);
   border-bottom: 1rem solid rgba(85, 82, 82, 0.76); }
-  .header__nav::after {
-    content: " ";
-    display: block;
-    border-top: 1px solid #fff; }
 
 .header__list {
   display: flex;
@@ -32,18 +28,14 @@ body {
   .header__list--item {
     list-style: none;
     padding: 2rem;
-    color: #fff;
     font-size: 1.2rem; }
 
 .header__head {
   background-color: rgba(5, 74, 177, 0.527);
   height: 16rem;
   display: flex;
-  align-items: center; }
-  .header__head::before {
-    content: " ";
-    display: block;
-    border-top: 1px solid #fff; }
+  align-items: center;
+  border-top: .2rem solid #fff; }
 
 .header__primary {
   text-transform: uppercase;
@@ -75,6 +67,11 @@ span {
 a {
   color: #fff;
   text-decoration: none; }
+  a:hover {
+    color: blue; }
+
+.header__list--active > a {
+  color: blue; }
 
 .footer {
   margin-left: 20rem;

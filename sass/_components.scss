@@ -3,11 +3,6 @@
     &__nav{
         background-color: rgba(0, 0, 0, 0.966); 
         border-bottom: 1rem solid rgba(85, 82, 82, 0.76);
-        &::after{
-            content: " ";
-            display: block;
-            border-top: 1px solid #fff;
-        }
     }
     &__list{
         display: flex; 
@@ -16,21 +11,15 @@
         &--item{
             list-style: none;
             padding: 2rem;
-            color: #fff;
-            font-size: 1.2rem;
+            font-size: 1.2rem;   
         }
     }
     &__head{
         background-color: rgba(5, 74, 177, 0.527);
         height: 16rem;
         display: flex;
-        align-items: center;
-        &::before{
-            content: " ";
-            display: block;
-            border-top: 1px solid #fff;
-        }
-        
+        align-items: center;  
+        border-top: .2rem solid #fff;     
     }
     &__primary{
         text-transform: uppercase;
@@ -44,12 +33,6 @@
 /////CONTENT INNER
 .content__inner{
     display: flex;
-    &--detail{
-
-    }
-    &--image{
-
-    }
 }
 ////CONTENT OUTER
 .content__outer{
@@ -80,6 +63,12 @@ span{
 a{
     color: #fff;
     text-decoration: none;
+   &:hover{
+        color: blue;
+    }
+}
+.header__list--active>a {
+    color: blue;
 }
 
 ////FOOTER
